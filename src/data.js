@@ -83,8 +83,6 @@ export const skills = [
   "JIRA",
   "ETL",
   "Data Structures and algorithms",
-  "React",
-  "NodeJS",
   "Apache Kafka",
   "Flask",
   "CDAP/ Data fusion"
