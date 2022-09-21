@@ -5,7 +5,7 @@ import ganapathy from "./images/ganapathy.jpg";
 export const experiences = [
   {
     title: "Graduate Assistant",
-    organization: "Missouri Univeristy of Science and Technology",
+    organization: "Missouri University of Science and Technology",
     description: [
       "Maintain optimal website performance and manage hosting environment of Missouri University of Science and Technology.",
       "Cleaning and organizing data in the admissions database which can later be used for administrative purpose.",
@@ -16,7 +16,7 @@ export const experiences = [
   },
   {
     title: "Teaching Assistant",
-    organization: "Missouri Univeristy of Science and Technology",
+    organization: "Missouri University of Science and Technology",
     description: [
       "Assisted Professor with the course work of Intro to digital Electronics including Grading students assignments and projects on timely basis",
       "Conducted office hours to respond to students questions about assignments and projects",
@@ -29,7 +29,7 @@ export const experiences = [
     organization: "Tata Consultancy Services",
     description: [
       "Built Scalable pipelines using Google cloud data fusion and BigQuery scripts for different loading strategies such as insert append, SCD1, SCD2, truncate load.",
-      "Developed python automation scripts using modelling sheets which reduced the manual work of creating DDLs and DMLs.",
+      "Developed python automation scripts using modeling sheets which reduced the manual work of creating DDLs and DMLs.",
       "Implemented an effective solution for handling Dag dependencies and orchestrated the pipelines using Google Cloud Composer.",
       "Built back-end for a web application using Flask web framework and deployed the application using Google App Engine.",
       "Contributed to Low level design document of the project.",
@@ -41,9 +41,9 @@ export const experiences = [
     title: "Technical trainer",
     organization: "Talentio",
     description: [
-      "Thought students Data stuructues and algorithms using python and fundamentals of database management systems.",
+      "Thought students Data structures and algorithms using python and fundamentals of database management systems.",
       "Created Assignments and modules which are used by all trainers in the program.",
-      "Conducted one-one sessions with students which enabled to gain much better understanding of fundementals",
+      "Conducted one-one sessions with students which enabled to gain much better understanding of fundamentals",
       "Received runner-up for best trainer of the program.",
     ],
     from: "June 2019",
@@ -55,8 +55,8 @@ export const experiences = [
     description: [
       "Designed and Developed a data model for TPMS (Ticket printing management system) which allows users to print tickets in batch mode.",
       "Built the database in MySQL sever to store the aggregations, history of the tickets sold per day and current day sales.",
-      "Supervied the ticket management section and provided support for both website and database",
-      "Collected user feedback every year at the end of the event and migrated the end-data to google cloud bigquery from on-prem server using DataFlow and extended the report analysis section.",
+      "Supervised the ticket management section and provided support for both website and database.",
+      "Collected user feedback every year at the end of the event and migrated the end-data to Google cloud bigquery from on-prem server using DataFlow and extended the report analysis section.",
     ],
     from: "Dec 2018",
     to: "Feb 2019",
@@ -118,3 +118,5 @@ export const testimonials = [
     image: attila,
   }
 ];
+
+
