@@ -17,7 +17,7 @@ const About = () => {
             , I'm Chaitanya Jarugula.
             <br className="hidden lg:inline-block" />I am a Software developer.
           </h1>
-          <p className="mb-8 leading-relaxed">I have 1.5 years of Full time work experience with proven expertise in the field of data engineering and application development. I have worked as a freelance database developer for more than 2 years. I am a data science enthusiast and keep myself updated with the latest trends in the feild of data science and machine learning. I beleive in consistent effort and feedback driven development.</p>
+          <p className="mb-8 leading-relaxed">I have 1.5 years of Full time work experience with proven expertise in the field of data engineering and application development. I have worked as a freelance database developer for more than 2 years. I am a data science enthusiast and keep myself updated with the latest trends in the field of data science and machine learning. I believe in consistent effort and feedback driven development.</p>
           <div className="flex justify-center">
             <a
               href="#Experience"
