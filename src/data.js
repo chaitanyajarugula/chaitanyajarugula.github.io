@@ -21,7 +21,7 @@ export const experiences = [
       "Assisted Professor with the course work of Intro to digital Electronics including Grading students assignments and projects on timely basis",
       "Conducted office hours to respond to students questions about assignments and projects",
     ],
-    from: "Jan 2020",
+    from: "Jan 2022",
     to: "May 2022",
   },
   {
@@ -59,7 +59,7 @@ export const experiences = [
       "Collected user feedback every year at the end of the event and migrated the end-data to Google cloud bigquery from on-prem server using DataFlow and extended the report analysis section.",
     ],
     from: "Dec 2018",
-    to: "Feb 2019",
+    to: "Feb 2020",
   },
 ];
 
