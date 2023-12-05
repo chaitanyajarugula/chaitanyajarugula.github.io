@@ -15,9 +15,9 @@ const About = () => {
               />
             </span>
             , I'm Chaitanya Jarugula.
-            <br className="hidden lg:inline-block" />I am a Software developer.
+            <br className="hidden lg:inline-block" />I am a Data Engineer.
           </h1>
-          <p className="mb-8 leading-relaxed">I have 1.5 years of Full time work experience with proven expertise in the field of data engineering and application development. I have worked as a freelance database developer for more than 2 years. I am a data science enthusiast and keep myself updated with the latest trends in the field of data science and machine learning. I believe in consistent effort and feedback driven development.</p>
+          <p className="mb-8 leading-relaxed"> I'm a passionate Computer Science professional with a Master's degree in Computer Science, specializing in Data Engineering. I thrive in dynamic, feedback-driven development environments, where innovation and collaboration take center stage. My expertise lies in Data Analytics, ETL pipeline development, and data architecture, and I'm excited to share my journey and insights with you. Join me on this digital exploration as I showcase my skills and commitment to creating impactful solutions in a collaborative and feedback-centric space.</p>
           <div className="flex justify-center">
             <a
               href="#Experience"
