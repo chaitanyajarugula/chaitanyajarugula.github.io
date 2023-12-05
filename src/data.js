@@ -4,6 +4,17 @@ import attila from "./images/attila.jpg";
 import ganapathy from "./images/ganapathy.jpg";
 export const experiences = [
   {
+    title: "Data Engineer - Consultant",
+    organization: "Bayer",
+    description: [
+      "Demonstrating ownership of intricate data entities in Google BigQuery, applying Ralph Kimball’s Dimensional Modeling concepts to establish a robust data architecture that enhances decision-making and analytics.",
+      "Developing Dataflow pipelines for Extract, Transform, Load (ETL) operations, facilitating seamless data processing.",
+      "Responsible for implementing Kafka producers and consumers on AWS fargate clusters to facilitate data transfer between on-premises databases and the BigQuery stage area."
+    ],
+    from: "June 2023",
+    to: "Present",
+  },
+  {
     title: "Graduate Assistant",
     organization: "Missouri University of Science and Technology",
     description: [
@@ -12,7 +23,7 @@ export const experiences = [
       "Interacting with incoming international students to enable smooth transition.",
     ],
     from: "May 2022",
-    to: "Present",
+    to: "May 2023",
   },
   {
     title: "Teaching Assistant",
@@ -25,14 +36,15 @@ export const experiences = [
     to: "May 2022",
   },
   {
-    title: "Google Cloud Platform developer",
+    title: "Data Engineer - Digital Cadre",
     organization: "Tata Consultancy Services",
     description: [
-      "Built Scalable pipelines using Google cloud data fusion and BigQuery scripts for different loading strategies such as insert append, SCD1, SCD2, truncate load.",
-      "Developed python automation scripts using modeling sheets which reduced the manual work of creating DDLs and DMLs.",
-      "Implemented an effective solution for handling Dag dependencies and orchestrated the pipelines using Google Cloud Composer.",
-      "Built back-end for a web application using Flask web framework and deployed the application using Google App Engine.",
-      "Contributed to Low level design document of the project.",
+      "Written Terraform scripts for deployment of GCP Data Fusion and Airflow infrastructure.",
+      "Built Scalable and reusable ETL pipelines using Google cloud data fusion to migrate petabytes of data from on-premises servers to Google Cloud platform.",
+      "Developed Advanced SQL like Aggregation Scripts for different loading strategies like SCD1, SCD2, insert append and truncate load in Google BigQuery.",
+      "Designed and Developed a light-weight Progressive Web Application and deployed the containerized image in Google app Engine for Vodafone Telecom organization using Flask web framework responsible for increase in data availability by 3.5%.",
+      "Written python automation scripts using modelling sheets which reduced the work load of creating DML and DDL modules from mapping sheets by 90%.",
+      "Designed and Implemented solution for cross DAG dependencies and orchestrated the pipelines using Google Cloud Composer."
     ],
     from: "Sep 2020",
     to: "Dec 2021",
