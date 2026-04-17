@@ -4,12 +4,16 @@ import attila from "./images/attila.jpg";
 import ganapathy from "./images/ganapathy.jpg";
 export const experiences = [
   {
-    title: "Data Engineer - Consultant",
+    title: "AI Data Engineer",
     organization: "Bayer",
     description: [
-      "Demonstrating ownership of intricate data entities in Google BigQuery, applying Ralph Kimball’s Dimensional Modeling concepts to establish a robust data architecture that enhances decision-making and analytics.",
-      "Developing Dataflow pipelines for Extract, Transform, Load (ETL) operations, facilitating seamless data processing.",
-      "Responsible for implementing Kafka producers and consumers on AWS fargate clusters to facilitate data transfer between on-premises databases and the BigQuery stage area."
+    "Transforme data entities in BigQuery by leveraging combination of Dimensional Modeling and flatted table principles to architect a data framework using Hackolade, resulting in a 40% enhancement in data visibility compared to source.",
+  "Employed Git version control for source code management and GitHub Actions for continuous integration/continuous deployment (CI/CD) of the Kafka and Apache beam pipelines, ensuring rapid, secure, and efficient code releases.",
+  "Architected and implemented Apache Beam pipelines, reducing data processing time by 50% and delivering robust data handling capabilities; Incorporated Dataplex APIs to enable seamless data discovery and metadata management.",
+  "Leveraged proficiency in Apache Airflow to design and implement custom operators and DAGs, orchestrating data pipelines on GCP. Integrated SQL scripts to optimize workflow efficiency and streamline data processing.",
+  "Engineered terraform scripts to provide infrastructure for AWS Fargate, AWS Cloudwatch, defined all the necessary IAM rules ensuring least-access privilege policies.",
+  "Engineered a highly extensible Dataflow Flex Template leveraging Apache Beam to orchestrate schema-aware ingestion, transformation, and loading of heterogeneous file formats (CSV, fixed-width, Parquet, text) from SFTP into BigQuery with robust error handling and parameterized runtime configuration.",
+  "Implemented GitHub Actions pipelines to automate publishing of Dataflow Flex Template container images to GCP Artifact Registry, execute security and vulnerability scans across Python dependencies, and provision AWS Fargate clusters to stream Kafka topics from SLT into BigQuery."
     ],
     from: "June 2023",
     to: "Present",
@@ -18,14 +22,14 @@ export const experiences = [
     title: "Graduate Assistant",
     organization: "Missouri University of Science and Technology",
     description: [
-      "Maintain optimal website performance and manage hosting environment of Missouri University of Science and Technology.",
-      "Cleaning and organizing data in the admissions database which can later be used for administrative purpose.",
-      "Interacting with incoming international students to enable smooth transition.",
+      "Maintained optimal website performance and managed the hosting environment at Missouri University of Science and Technology.",
+      "Cleaned and organized admissions database data for administrative reporting and decision-making.",
+      "Supported incoming international students to enable a smooth transition.",
     ],
     from: "May 2022",
     to: "May 2023",
   },
-  {
+  /*{
     title: "Teaching Assistant",
     organization: "Missouri University of Science and Technology",
     description: [
@@ -34,17 +38,19 @@ export const experiences = [
     ],
     from: "Jan 2022",
     to: "May 2022",
-  },
+  },*/
   {
-    title: "Data Engineer - Digital Cadre",
+    title: "Data Engineer",
     organization: "Tata Consultancy Services",
     description: [
-      "Written Terraform scripts for deployment of GCP Data Fusion and Airflow infrastructure.",
-      "Built Scalable and reusable ETL pipelines using Google cloud data fusion to migrate petabytes of data from on-premises servers to Google Cloud platform.",
-      "Developed Advanced SQL like Aggregation Scripts for different loading strategies like SCD1, SCD2, insert append and truncate load in Google BigQuery.",
-      "Designed and Developed a light-weight Progressive Web Application and deployed the containerized image in Google app Engine for Vodafone Telecom organization using Flask web framework responsible for increase in data availability by 3.5%.",
-      "Written python automation scripts using modelling sheets which reduced the work load of creating DML and DDL modules from mapping sheets by 90%.",
-      "Designed and Implemented solution for cross DAG dependencies and orchestrated the pipelines using Google Cloud Composer."
+      "Led the Development of SQL Scripts for aggregation using business logic for Fact and dimensional table loading strategies like SCD1, SCD2 and performed data-driven troubleshooting for more than 2000 Jira tickets on data in Google BigQuery.",
+      "Improved data availability by 25% by developing an end-to-end data management application using React JS, Flask and Utilizing BigQuery APIs to interact with the data warehouse.",
+      "Developed Terraform scripts and streamlined the deployment using CI/CD builds on Google Cloud build for GCP Data Fusion and Composer infrastructure, resulting in an 80% reduction in deployment time and improved resource utilization.",
+      "Spearheaded the development of scalable and reusable ETL pipelines using Google Cloud Data Fusion for data ingestion, migrating more than 400 Terabytes of data from on-premises servers to Google Cloud Platform; achieved significant cost savings and streamlined data processing capabilities.",
+      "Accelerated migration time by Developing a Java program leveraging the Hadoop map-reduce framework to seamlessly migrate data from diverse sources to Google Cloud Storage (GCS).",
+      "Decreased the DML and DDL generation time by 90% through creation of python automation scripts using modeling sheets.",
+      "Designed and Implemented effective solution for cross DAG dependencies and orchestrated the data pipelines using Apache Airflow on Google Cloud.",
+      "Applied compliance standards rigorously throughout the software development process to ensure that the product met industry regulations (GDPR) and company policies, providing data security to PII data in Google BigQuery."
     ],
     from: "Sep 2020",
     to: "Dec 2021",
@@ -53,10 +59,10 @@ export const experiences = [
     title: "Technical trainer",
     organization: "Talentio",
     description: [
-      "Thought students Data structures and algorithms using python and fundamentals of database management systems.",
-      "Created Assignments and modules which are used by all trainers in the program.",
-      "Conducted one-one sessions with students which enabled to gain much better understanding of fundamentals",
-      "Received runner-up for best trainer of the program.",
+      "Delivered hands-on training in Python, data structures & algorithms, and database fundamentals, emphasizing problem-solving and practical implementation.",
+      "Designed assignments and reusable learning modules adopted across the training program to standardize instruction and improve learner outcomes.",
+      "Mentored students through 1:1 sessions, clarifying core concepts and accelerating progress through personalized feedback.",
+      "Recognized as runner-up for Best Trainer for strong learner feedback and consistent instructional quality.",
     ],
     from: "June 2019",
     to: "June 2019",
@@ -65,10 +71,10 @@ export const experiences = [
     title: "Database developer Intern",
     organization: "All India Industrial Exhibition",
     description: [
-      "Designed and Developed a data model for TPMS (Ticket printing management system) which allows users to print tickets in batch mode.",
-      "Built the database in MySQL sever to store the aggregations, history of the tickets sold per day and current day sales.",
-      "Supervised the ticket management section and provided support for both website and database.",
-      "Collected user feedback every year at the end of the event and migrated the end-data to Google cloud bigquery from on-prem server using DataFlow and extended the report analysis section.",
+      "Designed and developed a highly efficient relational data models, enabling users to effortlessly print tickets in batch mode, resulting in a 40% improvement in operational productivity.",
+      "Supervised the ticket printing management department and provided on-call support for the application. Solved more than 200 user queries related to application and audit reports generated.",
+      "Built a relational database in MySQL from scratch following 3NF database modeling principles to avoid data redundancies.",
+      "Generated comprehensive excel reports for ticket sales data utilizing advanced SQL queries; provided accurate and detailed insights for auditing, resulting in improved financial transparency and streamlined decision-making processes.",
     ],
     from: "Dec 2018",
     to: "Feb 2020",
@@ -76,28 +82,8 @@ export const experiences = [
 ];
 
 export const skills = [
-  "Python",
-  "Machine Learning",
-  "Deep Learning Architectures",
-  "Java",
-  "SQL",
-  "BigQuery",
-  "DataFlow",
-  "Hadoop",
-  "Apache Spark",
-  "Apache Airflow",
-  "React JS",
-  "Node JS",
-  "MongoDB",
-  "HTML",
-  "CSS",
-  "GIT",
-  "JIRA",
-  "ETL",
-  "Data Structures and algorithms",
-  "Apache Kafka",
-  "Flask",
-  "CDAP/ Data fusion"
+  "Python", "SQL", "Java", "Shell Scripting", "JavaScript","Apache Beam (Dataflow)", "Apache Airflow (Composer)", "Spark (PySpark)", "Kafka", "Data Modeling", "ETL/ELT Design", "BigQuery","Google Cloud Platform", "AWS", "Terraform", "Docker", "GitHub Actions (CI/CD)",
+  "React JS", "Flask", "HTML5", "CSS3", "RESTful APIs","Model Context Protocol (MCP)", "LLMs", "LangChain", "JIRA", "Hackolade"
 ];
 
 export const testimonials = [

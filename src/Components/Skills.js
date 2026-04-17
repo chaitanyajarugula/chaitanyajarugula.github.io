@@ -1,10 +1,9 @@
-import { skills } from "../data";
-
 const skillCategories = {
-  "Languages": ["Python", "Java", "SQL", "HTML", "CSS"],
-  "Data & Cloud": ["BigQuery", "DataFlow", "Hadoop", "Apache Spark", "Apache Airflow", "Apache Kafka", "ETL", "CDAP/ Data fusion"],
-  "AI / ML": ["Machine Learning", "Deep Learning Architectures"],
-  "Web & Tools": ["React JS", "Node JS", "MongoDB", "Flask", "GIT", "JIRA", "Data Structures and algorithms"],
+"Languages": ["Python", "SQL", "Java", "Shell Scripting", "JavaScript"],
+"Data Engineering": ["Apache Beam (Dataflow)", "Apache Airflow (Composer)", "Spark (PySpark)", "Kafka", "Data Modeling", "ETL/ELT Design", "BigQuery"],
+"Cloud & DevOps": ["Google Cloud Platform", "AWS", "Terraform", "Docker", "GitHub Actions (CI/CD)"],
+"Web & API": ["React JS", "Flask", "HTML5", "CSS3", "RESTful APIs"],
+"AI & Tools": ["Model Context Protocol (MCP)", "LLMs", "LangChain", "JIRA", "Hackolade"]
 };
 
 const Skills = () => {
@@ -40,14 +39,6 @@ const Skills = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Skill count */}
-        <div className="mt-12 text-center">
-          <p className="font-mono text-xs text-gray-500">
-            <span className="text-neon-green">{skills.length}</span> technologies
-            and counting...
-          </p>
         </div>
       </div>
     </section>

@@ -13,7 +13,7 @@ const Contact = () => {
         </h2>
         <p className="text-gray-400 text-sm sm:text-base leading-relaxed mb-10 max-w-md mx-auto">
           I'm always open to discussing new opportunities, collaborations, or
-          just geeking out about data engineering.
+          just geeking out about data & AI engineering.
         </p>
 
         {/* Email CTA */}

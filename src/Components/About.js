@@ -62,7 +62,7 @@ const About = () => {
 
             <p className="text-gray-400 leading-relaxed mb-10 max-w-lg text-sm sm:text-base">
               Passionate Computer Science professional with a Master's degree,
-              specializing in Data Engineering. I build scalable data pipelines,
+              specializing in Data & AI Engineering. I build scalable data pipelines,
               craft robust cloud architectures, and turn raw data into actionable
               insights.
             </p>
@@ -90,7 +90,7 @@ const About = () => {
                 </p>
                 <p className="pl-2">
                   <span className="text-neon-cyan">"focus"</span>:{" "}
-                  <span className="text-neon-green">"Data Engineering, AI Engineering"</span>
+                  <span className="text-neon-green">"Data & AI Engineering"</span>
                 </p>
               </div>
             </div>
@@ -131,9 +131,9 @@ const About = () => {
                   <span className="text-neon-green">'SQL'</span>,{"\n"}
                   {"      "}
                   <span className="text-neon-green">'BigQuery'</span>,{" "}
-                  <span className="text-neon-green">'Kafka'</span>,{"\n"}
+                  <span className="text-neon-green">'CI/CD'</span>,{"\n"}
                   {"      "}
-                  <span className="text-neon-green">'Spark'</span>,{" "}
+                  <span className="text-neon-green">'MCP'</span>,{" "}
                   <span className="text-neon-green">'Airflow'</span>
                   {"\n"}
                   {"    "}];{"\n"}
