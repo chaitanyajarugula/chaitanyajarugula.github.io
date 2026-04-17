@@ -52,7 +52,7 @@ const Nav = () => {
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="https://drive.google.com/file/d/1pimryeXBeXuan4kmVuwdzSObrsMx-rUe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Ase5Aa1u9t1a1ifQZD2sTzFn03eOXs9q/view?usp=drivesdk"
             className="neon-btn text-xs"
             target="_blank"
             rel="noreferrer"
