@@ -8,9 +8,14 @@ import PastWork from './Components/PastWork';
 
 function App() {
     return (
-      <main className="text-gray-400 bg-custom body-font">
-        <Nav/>
-        <About/>
+      <main className="bg-dark-900 text-gray-300 min-h-screen relative">
+        {/* Background effects */}
+        <div className="bg-grid-overlay" />
+        <div className="scanline" />
+
+        {/* Content */}
+        <Nav />
+        <About />
         <PastWork />
         <Skills />
         <Testimonials />

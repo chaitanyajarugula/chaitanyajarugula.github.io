@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
+/* Animated grid background overlay */
+.bg-grid-overlay {
+  position: fixed;
+  inset: 0;
   pointer-events: none;
+  z-index: 0;
+  background-image:
+    linear-gradient(rgba(0, 245, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 255, 0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Scanline effect */
+.scanline {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(0, 245, 255, 0.08),
+    transparent
+  );
+  z-index: 50;
+  pointer-events: none;
+  animation: scan-line 8s linear infinite;
+}
+
+@keyframes scan-line {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+
+/* Floating particles */
+.particle {
+  position: fixed;
+  width: 2px;
+  height: 2px;
+  background: rgba(0, 245, 255, 0.3);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: float-particle linear infinite;
+}
+
+@keyframes float-particle {
+  0% {
+    transform: translateY(100vh) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) translateX(100px);
+    opacity: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Glitch text effect on hover */
+.glitch-hover:hover {
+  animation: glitch 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(-2px, -2px); }
+  60% { transform: translate(2px, 2px); }
+  80% { transform: translate(2px, -2px); }
+  100% { transform: translate(0); }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #00f5ff, #39ff14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Typing cursor */
+.typing-cursor::after {
+  content: '|';
+  color: #00f5ff;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  from, to { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Section transition */
+section {
+  position: relative;
+  z-index: 1;
+}
+
+/* Timeline connector */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(0, 245, 255, 0.3),
+    transparent
+  );
+}
+
+/* Hover glow for cards */
+.card-glow {
+  transition: all 0.3s ease;
+}
+
+.card-glow:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 30px rgba(0, 245, 255, 0.1), 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Tag/badge styling */
+.tech-tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  border: 1px solid rgba(0, 245, 255, 0.2);
+  color: #00f5ff;
+  border-radius: 9999px;
+  background: rgba(0, 245, 255, 0.05);
 }
